@@ -21,14 +21,16 @@ Grade: 125/100
 To compile, use ```make``` or ```make all```. and launch the program with ```./so_long map/map.ber```
 
 To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
+You can use either WASD or ZQSD to move the player on the map.
 
-### Miscellaneous
+### Notes
 - The project was done on Ubuntu Budgie 23.04 and was not tested on MacOS.
-- Memory leaks have been thoroughly cheked with Valgrind :
+- Memory leaks have been thoroughly checked with Valgrind :
 ```
-valgrind --leak-check=full ./so _long map/map.ber
+valgrind --leak-check=full ./so_long map/map.ber
 ```
 - To make the Minilibx compile on linux, you need to install the following packages :
 ```
 sudo apt-get install xauth xorg openbox libxext-dev libbsd-dev_
 ```
+- Transparency is not supported by the Minilibx on linux (but is on MacOS). This website explains how to implement it on your own : (https://pulgamecanica.herokuapp.com/posts/mlx-transparency)
