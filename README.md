@@ -1,42 +1,21 @@
-# pipex
+# so long
 
 <p align="center">
-  <img src="https://github.com/ArenKae/42-badges/blob/main/pipexe.png" alt="Pipex 42 project badge"/>
+  <img src="https://github.com/ArenKae/42-badges/blob/main/so_longe.png" alt="So long 42 project badge"/>
 </p>
 
-pipex is a 42 school project aimed to better understand shell redirection and pipes, by handling them in C.
-
-This pipex program takes an input file, performs a command on it, pipes the result to another command which then writes its result to an output file. The result is virtually identical to this kind of shell command:
-```
-$ < input_file command1 | command2 > output file
-```
+One of the first graphical projects at 42 school, so_long is a small 2D game where a lost astronaut needs to collect energy cells to power-up his ship. This project uses the school's graphical library, MiniLibX, in order to display a window, handle events, colors and textures.
 
 ---
 
 ## Status
-Finished 12/06/2023. Grade: 100/100
+Finished 02/10/2023. Grade: 125/100
 
 ## Usage
-To compile, use ```make``` or ```make all```.
+To compile, use ```make``` or ```make all```. To launche the program, use ```./so_long map/map.ber```
 
-### Checking memory leaks
-In order to check for memory leaks properly on MacOS, some adjustments need to be made to the code. First, we need to redirect stdout to its usual fd, since it is used in a pipe for this project. For this purpose, add the following line at the end of the main() function :
-```
-dup2(STDOUT_FILENO, fd2);
-```
-Then we can make a system call to check for leaks as usual :
-```
-system("leaks pipex");
-```
-In the pipex() function, we need to add a second fork in order for the stdout to work properly :
-```
-pid_t pid2;
+To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
 
-[...]
-
-pid2 = fork();
-```
-Then, replace the "else" statement with :
-```
-if (pid2 == CHILD)
-```
+### Miscellan
+- Memory leaks have been thoroughly cheked with Valgrind :
+```valgrind --leak-check=full ./so _long map/map.ber```
