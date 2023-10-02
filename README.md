@@ -13,13 +13,21 @@ One of the first graphical projects at 42 school, so_long is a small 2D game whe
 ---
 
 ## Status
-Finished 02/10/2023. Grade: 125/100
+Finished 02/10/2023. 
+Grade: 125/100
 
 ## Usage
-To compile, use ```make``` or ```make all```. To launche the program, use ```./so_long map/map.ber```
+To compile, use ```make``` or ```make all```. and launch the program with ```./so_long map/map.ber```
 
 To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
 
-### Miscellan
+### Miscellaneous
+- The project was done on Ubuntu Budgie 23.04 and was not tested on MacOS.
 - Memory leaks have been thoroughly cheked with Valgrind :
-```valgrind --leak-check=full ./so _long map/map.ber```
+```
+valgrind --leak-check=full ./so _long map/map.ber
+```
+- To make the Minilibx compile on linux, you need to install the following packages :
+```
+sudo apt-get install xauth xorg openbox libxext-dev libbsd-dev_
+```
