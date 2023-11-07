@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 10:31:23 by acosi             #+#    #+#             */
-/*   Updated: 2023/09/29 20:37:52 by acosi            ###   ########.fr       */
+/*   Updated: 2023/11/07 20:22:39 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,6 @@ int	main(int ac, char **av)
 		mlx_key_hook(context.window, on_key, &context);
 		mlx_loop(context.game);
 	}
+	ft_putstr_fd("Please enter at least one argument!", 2);
 	return (0);
 }
