@@ -33,6 +33,6 @@ valgrind --leak-check=full ./so_long map/map.ber
 ```
 - To make the Minilibx compile on linux, you need to install the following packages :
 ```
-sudo apt-get install xauth xorg openbox libxext-dev libbsd-dev_
+sudo apt-get install xauth xorg openbox libxext-dev libbsd-dev
 ```
 - Transparency is not supported by the Minilibx on linux (though is on MacOS). This article explains how to implement it on your own : https://pulgamecanica.herokuapp.com/posts/mlx-transparency
