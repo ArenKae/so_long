@@ -23,10 +23,16 @@ Grade: 125/100
 ```
 sudo apt install xauth xorg openbox libxext-dev libbsd-dev
 ```
-- To compile, use ```make``` or ```make all```. and launch the program with ```./so_long map/map.ber```
+- To compile, use ```make``` or ```make all```. and launch the program with :
+```
+./so_long map/map.ber
+```
 
-- To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
+- To compile with the bonus part, use ```make bonus``` and launch the program with 
+```
+./so_long_bonus map/bonus_map.ber
+```
 
 - You can use either WASD or ZQSD to move the player on the map.
 
-> **_NOTE:_**  This project was done on Ubuntu 23.04 and was not tested on MacOS.
+### 💻 This project was developed on Ubuntu 23.04. and was not tested on MacOS.
