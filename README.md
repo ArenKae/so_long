@@ -1,4 +1,4 @@
-# so long
+# So_long
 
 <p align="center">
   <img src="https://github.com/ArenKae/ArenKae/blob/main/42%20badges/so_longe.png" alt="So long 42 project badge"/>
@@ -19,15 +19,14 @@ Finished 02/10/2023.
 Grade: 125/100
 
 ## Usage
-To compile, use ```make``` or ```make all```. and launch the program with ```./so_long map/map.ber```
-
-To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
-
-You can use either WASD or ZQSD to move the player on the map.
-
-### Notes
-- The project was done on Ubuntu Budgie 23.04 and was not tested on MacOS.
-- To make the Minilibx compile on linux, you need to install the following packages :
+- First, install the following dependencies to allow the Minilibx to compile :
 ```
-sudo apt-get install xauth xorg openbox libxext-dev libbsd-dev
+sudo apt install xauth xorg openbox libxext-dev libbsd-dev
 ```
+- To compile, use ```make``` or ```make all```. and launch the program with ```./so_long map/map.ber```
+
+- To compile with the bonus part, use ```make bonus``` and launch the program with ```./so_long_bonus map/bonus_map.ber```
+
+- You can use either WASD or ZQSD to move the player on the map.
+
+> **_NOTE:_**  This project was done on Ubuntu 23.04 and was not tested on MacOS.
