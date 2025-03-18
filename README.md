@@ -8,7 +8,7 @@ One of the first graphical projects at 42 school, so_long is a small 2D game whe
 
 
 <p align="center">
-  <img src="https://github.com/ArenKae/ArenKae/blob/main/screens/so_long.PNG" alt="So_long demo screenshot">
+  <img src="https://github.com/ArenKae/ArenKae/blob/main/screens/so_long.gif" alt="So_long demo screenshot">
 </p>
 
 ---
