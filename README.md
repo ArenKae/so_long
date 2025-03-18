@@ -4,7 +4,7 @@
   <img src="https://github.com/ArenKae/ArenKae/blob/main/42%20badges/so_longe.png" alt="So long 42 project badge"/>
 </p>
 
-One of the first graphical projects at 42 school, so_long is a small 2D game where a lost astronaut needs to collect energy cells to power up his ship. This project uses the school's graphical library, [MiniLibX library](https://github.com/42Paris/minilibx-linux), in order to display a window, handle events, colors and textures.
+One of the first graphical projects at 42 school, so_long is a small 2D game where a lost astronaut needs to collect energy cells to power up his ship. This project uses the school's graphical library, [MiniLibX](https://github.com/42Paris/minilibx-linux), in order to display a window, handle events, colors and textures.
 
 
 <p align="center">
