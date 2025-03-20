@@ -14,9 +14,9 @@ One of the first graphical projects at 42 school, so_long is a small 2D game whe
 ---
 
 ## Status
-Finished 02/10/2023.
-
-Grade: 125/100
+✅ Completed on: 02/10/2023
+</br>
+🏆 Grade: 125/100
 
 ## Usage
 - First, install the following dependencies to allow the Minilibx to compile :
