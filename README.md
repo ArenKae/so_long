@@ -33,6 +33,7 @@ sudo apt install xauth xorg openbox libxext-dev libbsd-dev
 ./so_long_bonus map/bonus_map.ber
 ```
 
-- You can use either WASD or ZQSD to move the player on the map.
+> [!NOTE]
+> You can use either WASD or ZQSD to move the player on the map.
 
 ### 💻 This project was developed on Ubuntu 23.04. and was not tested on MacOS.
